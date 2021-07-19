@@ -2,8 +2,6 @@
 
 Landing Page com promoções de viagem para cadastro em newsletter. Projeto final para a etapa de front-end do curso Hiring Coders #2 da VTEX.
 
-
-
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -14,4 +12,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - JS
 
+### Preview
 
+Dê uma olhada no [preview do projeto](https://vhc-hc2-landingpage.netlify.app/).
