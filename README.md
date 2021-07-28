@@ -1,6 +1,6 @@
-# Landing Page Promoções - HC#2 Etapa Fontend
+# Sita para cadastro em newsletter de promoções - HC#2 Etapa 1
 
-Landing Page com promoções de viagem para cadastro em newsletter. Projeto final para a etapa de front-end do curso Hiring Coders #2 da VTEX.
+Site para cadastro em newsletter de promoções. Projeto parcial para a primeira etapa do curso Hiring Coders #2 da VTEX.
 
 ### 🛠 Tecnologias
 

@@ -22,7 +22,7 @@
 <body>
   <main>
     <section id="home">
-      <header>
+      <header role="banner">
         <a class="logo" href="index.html">
           <span class="logo-alt">Viagens</span>
           Pra
@@ -31,8 +31,8 @@
           <span class="logo-alt">Quero</span></a>
       </header>
 
-      <div class="combined-bg">
-        <div id="bg-img"></div>
+      <div class="combined-bg" aria-hidden='true'>
+        <div id="bg-img" aria-hidden='true'></div>
       </div>
 
       <div class="main-text">
@@ -45,7 +45,7 @@
       <div class="signup-redirector">
         <a href="#newsletter-signup">
           <p>CLIQUE AQUI PARA SE INSCREVER</p>
-          <img src="assets/images/down-arrows.svg" alt="Setas para baixo" />
+          <img src="assets/images/down-arrows.svg" alt="Setas apontando para baixo" />
         </a>
       </div>
     </section>
@@ -120,9 +120,9 @@
       <section id="newsletter-signup">
         <form action="" method="post" id="newsletter-form">
           <label for="client-name" class="sr-only">Nome</label>
-          <input type="text" name="client-name" id="client-name" placeholder="Insira seu nome" />
+          <input type="text" name="client-name" id="client-name" aria-label="Nome" placeholder="Insira seu nome" />
           <label for="client-email" class="sr-only">Email</label>
-          <input type="email" name="client-email" id="client-email" placeholder="Insira seu email" />
+          <input type="email" name="client-email" id="client-email" aria-label="Email" placeholder="Insira seu email" />
           <button type="submit" onclick="signupConfirm();" name="signup" id="signup-confirm">Cadastrar</button>
         </form>
       </section>
@@ -131,12 +131,12 @@
   </main>
 
   <footer>
-    <p class="copyright">&copy;2021 Viagens pra que te quero</p>
+    <p class="copyright">&copy;2021 Viagens pra que te quero - Criado por Lucas Vihuchi</p>
     <p>Todos os direitos reservados</p>
   </footer>
 
   <a href="#home" class="back-to-top back-to-top-hidden"><img src="assets/images/arrow-up.svg"
-      alt="Seta para cima" /></a>
+      alt="Voltar ao topo" /></a>
 
   <div class="modal modal-hidden">
     <div class="modal-container">
